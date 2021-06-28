@@ -1,4 +1,4 @@
-# PASOS PARA EJECUTAR EL PROYECTO SOURCE ETL
+# SOURCE ETL
 
 # Script de la data base
   El script se encuentra en la ruta database/script_source_DB.sql
@@ -20,7 +20,7 @@
     RAW_interactions.csv
     RAW_recipes.csv
   
-# Librerias a utilizar
+# Librerías a utilizar
   greenlet==1.1.0
   numpy==1.21.0
   pandas==1.2.5
@@ -30,6 +30,6 @@
   six==1.16.0
   SQLAlchemy==1.4.19
 
-# Definicion del proyecto
-  El proyecto esta estruturado de la siguiente manera, en la carpeta dataset encontramos a 7 archivos .csv que seran leidos uno a uno y posteriormente ir poblando la dase de datos
+# Definición del proyecto
+  El está estructurado de la siguiente manera, en la carpeta dataset encontramos a 7 archivos .csv que seran leidos uno a uno y posteriormente ir poblando la dase de datos
   en el siguiente orden users, recipe, interaction, raw_interaction, raw_recipes
